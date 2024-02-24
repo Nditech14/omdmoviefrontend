@@ -1,0 +1,93 @@
+.background {
+  background-color: #f0f0f0; 
+}
+
+/* App.css */
+
+.container {
+  max-width: 100%;
+  margin: auto;
+  padding: 20px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  flex: 1;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+}
+
+.search-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4caf50;
+  color: #fff;
+  border: 1px solid #4caf50;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+  .search-button:hover {
+      background-color: #45a049;
+  }
+
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.movie-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+  width: 200px;
+}
+
+  .movie-card img {
+      width: 100%;
+      height: auto;
+  }
+
+.selected-movie {
+  margin-top: 20px;
+  text-align: center;
+}
+
+  .selected-movie img {
+      max-width: 70%; /* Updated to cover 70% of the screen width */
+      height: auto;
+      margin: 0 auto; /* Center the image */
+      display: block; /* Remove any default inline styles */
+  }
+
+.search-history {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.error-message {
+  color: red;
+  text-align: center;
+  margin-top: 20px;
+}
+.more-link {
+  color: blue;
+  cursor: pointer;
+  text-decoration: underline; /* Optional: Add underline for a more obvious link style */
+}
